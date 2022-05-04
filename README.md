@@ -4,10 +4,10 @@ An implementation of multi-class Focal Loss with labeling smoothing.
 
 - focal loss
 
-$$
-CE(p_t)=-\log (p_t)\\
+```
+CE(p_t)=-\log (p_t)
 FL(p_t)=-(1-p_t)^{\gamma}\log (p_t)
-$$
+```
 
 - label smoothing
 
